@@ -1,11 +1,9 @@
 #include <stdio.h>
 int main(void){
 
-    float ahorroA=0;
-    float cant=0;
+    float ahorroA=0, cant = 0, ahorroMes;
     int mes=0;
-    float ahorroMes=0;
-
+    
     do{
 
         printf("Ingrese la cantidad de dinero a ahorrar: ");

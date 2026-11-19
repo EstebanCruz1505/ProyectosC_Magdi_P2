@@ -1,14 +1,20 @@
-/*
-TAREA: 
-    n
-  * * * *
-n * * *
-  * *
-  *
-*/
-for(int j = 0; j < 5; j++){
-  for(int i = 0; i < 5; i++)
-    printf("*");
+#include <stdio.h>
 
-  printf("\n");
+int main(void){
+    /*
+    TAREA: 
+            n
+          * * * *
+        n * * *
+          * *
+          *
+    */
+  for(int i=5;i>=1;i--){
+    for(int j=0;j<i;j++){
+      printf("*");                    
+    }    
+  printf("\n");                   
+  }
+
+  return 0;
 }
